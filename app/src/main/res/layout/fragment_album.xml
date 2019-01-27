@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.zingmp3.Fragment.AlbumFragment">
+
+    <RelativeLayout
+        android:padding="7dp"
+        android:id="@+id/realytiveAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="ALBUM HOT"
+            android:id="@+id/tvTitleAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Xem Them"
+            android:id="@+id/tvXemThemAlbum"
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            android:textColor="#dc4c4c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewAlbum"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/realytiveAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

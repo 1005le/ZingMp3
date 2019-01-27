@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.zingmp3.Fragment.TrangChuFragment">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <fragment
+        android:id="@+id/fragmentPlaylist"
+        android:name="com.example.admin.zingmp3.Fragment.PlaylistFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/fragmentCDvaTLoai"
+        android:name="com.example.admin.zingmp3.Fragment.ChuDeVaTheLoaiFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/fragmentAlbum"
+        android:name="com.example.admin.zingmp3.Fragment.AlbumFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/fragmentBaiHatHot"
+       android:name="com.example.admin.zingmp3.Fragment.BaiHatFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>

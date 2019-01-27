@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.zingmp3.Fragment.ChuDeVaTheLoaiFragment">
+
+    <RelativeLayout
+        android:padding="7dp"
+        android:id="@+id/relaytiveChuDeVaTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/tvTitle"
+            android:textSize="20sp"
+            android:text="CHU DE VA THE LOAI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Xem Them"
+            android:id="@+id/tvXemThem"
+            android:layout_alignParentRight="true"
+            android:textColor="#c13b3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:id="@+id/horizontalScollView"
+        android:layout_below="@id/relaytiveChuDeVaTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></HorizontalScrollView>
+
+</RelativeLayout>

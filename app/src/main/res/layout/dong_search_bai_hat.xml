@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imagViewSearchBaiHat"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:maxWidth="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/imagViewSearchBaiHat"
+        android:text="TenBaiHat"
+        android:textSize="18sp"
+        android:id="@+id/tvSearchTenBaiHat"
+        android:textColor="#c70c0c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:maxWidth="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/imagViewSearchBaiHat"
+        android:text="Ten Ca Si"
+        android:textSize="18sp"
+        android:layout_below="@+id/tvSearchTenBaiHat"
+        android:id="@+id/tvSearchTenCaSi"
+        android:textColor="#c70c0c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/iconlove"
+        android:id="@+id/imgViewSearchLuotThich"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>

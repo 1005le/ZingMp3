@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.zingmp3.Fragment.BaiHatFragment">
+  <RelativeLayout
+      android:id="@+id/relaytiveBaiHatHot"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:text="Co The Ban Thich"
+          android:textSize="20sp"
+          android:textColor="#000"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+  </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/recycleViewBaiHatHot"
+        android:layout_below="@+id/relaytiveBaiHatHot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
